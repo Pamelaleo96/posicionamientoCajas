@@ -1,0 +1,56 @@
+
+div {
+    display: block;
+}
+/*Caja principal del PRIMER BLOQUE*/
+.red {
+    background-color: red; /*Aplicamos color a nuestro caja del primer bloque*/
+    width: 400px; /*Establecemos Ancho a lra caja del primer bloque*/
+    height: 400px; /*Establecemos alto de la cja*/
+}
+
+/*Caja que va encima de la caja del primer bloque*/
+.purple {
+    background-color: rgb(92, 5, 58); /*Aplicamos color a nuestro bloque*/
+    width: 200px; /*Establecemos Ancho a lña caja*/
+    height: 200px; /*Establecemos alto de la cja*/
+    position: absolute; /*Le asignamos position absolute: para poder definir su posicion segun la estructura del HTML*/
+    top: 100px; /*Establecemos valor top (parte superior)*/
+    left: 100px; /*Establecemos valor left (parte izquierda)*/
+}
+
+/*Caja que va encima de la segunda caja del primer bloque*/
+.yellow {
+    background-color: yellow;
+    width: 100px; /*Establecemos Ancho a lña caja*/
+    height: 100px; /*Establecemos Alto a lña caja*/
+    position: absolute; /*Le asignamos position absolute: para poder definir su posicion segun la estructura del HTML*/
+    top: 100px; /*Establecemos valor top (parte superior)*/
+    left: 100px; /*Establecemos valor left (parte izquierda)*/
+}
+
+/*Caja principal del SEGUNDO BLOQUE*/
+.blue{
+    background-color: blue; /*Aplicamos color a nuestra caja del segundo bloque*/
+    width: 400px; /*Establecemos Ancho a 1ra caja del segundo bloque*/
+    height: 400px; /*Establecemos Alto a 1da caja del segundo bloque*/
+    margin-top: 16px; /*Separamos la 1ra caja del bloque principal con la 1ra caja del segundo bloque*/
+}
+
+.green{
+    background-color: rgb(6, 92, 6);
+    width: 200px; /*Establecemos Ancho a 2da caja del segundo bloque*/
+    height: 200px; /*Establecemos Alto a 2da caja del segundo bloque*/
+    position: relative; /*Le asignamos position absolute: para poder definir su posicion segun la estructura del HTML*/
+    bottom: 300px; /*Le asignamos position relative: para poder superponer a otros elementos**/
+    left: 100px;  /*Establecemos valor left (parte izquierda)*/
+}
+
+.black {
+    background-color: black;
+    width: 100px; /*Establecemos Ancho a 3ra caja del segundo bloque*/
+    height: 100px; /*Establecemos Alto a 3da caja del segundo bloque*/
+    position: relative; /*Le asignamos position relative:para poder superponer a otros elementos*/
+    bottom: 600px; /*Establecemos valor bottom (parte inferior)*/
+}
+
